@@ -1,0 +1,27 @@
+# Python sanal ortamı (Bunu asla pushlama!)
+venv/
+ENV/
+env/
+
+# Veri dosyaları (Çok yer kaplar ve kişiseldir)
+*.csv
+processed_data/
+processed_data_enriched.csv
+
+# Python önbellek dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Grafik ve çıktılar
+*.png
+*.jpg
+
+# IDE ayarları (PyCharm vb.)
+.idea/
+.vscode/
+
+# Gizli anahtarlar veya config dosyaları
+.env
+secrets.txt
